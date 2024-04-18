@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "KCC-Hanbit";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+h1,
+p {
+  /* 
+    글꼴
+    *serif: 문자 삐침이 있는 글꼴
+    *sans - serif : 문자 삐침이 없는 글꼴 
+    monospace : 동일한 너비의 글꼴
+    cursive :손으로 쓴 것 같은 글꼴
+    fantasy : 화려한 글꼴
+
+    스타일 적용 우선순위
+    1.important (999999999점)
+    2.inline style (1000점)
+    3.ID 선택자(10점)
+    4.class 선택자(10점)
+    5.tag(타입) 선택자(1점)
+    6.*(전체)선택자 (0점)
+*/
+  font-family: "KCC-Hanbit";
+  color: black;
+}
+span {
+  font-size: 2em;
+  color: red;
+}
+em {
+  font-size: 1.5em;
+  color: blue;
+}
+h1 {
+  border-botton: 1px solid gray;
+  color: red;
+}
+body {
+  font-size: large;
+  background-color: white;
+}
